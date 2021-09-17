@@ -152,6 +152,11 @@ h6{
 }
 
 
+.flex-notes{
+    display:flex;
+    -ms-flex-direction:row;
+}
+
 .card1 {
     background-color:#fff;
     margin:10px;
