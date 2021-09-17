@@ -152,33 +152,6 @@ h6{
 }
 
 
-.flex-notes{
-    display:flex;
-    -ms-flex-direction:row;
-}
-
-.card1 {
-    background-color:#fff;
-    margin:10px;
-    width:90%;
-}
-
-.card1-title {
-    text-align:center;
-    padding:10px;
-}
-
-.card1-title:after{
-    display:block;
-    content:"";
-    width:100%;
-    height:3px;
-    background-color:black;
-}
-
-.card1-text{
-    text-align:center;
-}
 
 
 .card {
@@ -442,21 +415,62 @@ h6{
 /********************
 * main
 ********************/
-.story__note {
-  margin: 0;
+
+.head-border{
+    color:#666;
+    display:flex;
+    align-items:center;
 }
 
-.story__note__outer {
-  width: 860px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 20px;
-  margin: 20px auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.head-border:before,
+.head-border:after{
+    content:"";
+    height:2px;
+    flex-grow:1;
+    background-color:#666;
 }
+
+.head-border:before{
+    margin-right: 45px;
+}
+
+.head-border:after{
+    margin-left:45px;
+}
+
+
+
+.flex-notes{
+    display:flex;
+    -ms-flex-direction:row;
+}
+
+.card1 {
+    background-color:#fff;
+    margin:10px;
+    width:90%;
+}
+
+.card1-title {
+    text-align:center;
+    padding:10px;
+}
+
+.card1-title:after{
+    display:block;
+    content:"";
+    width:100%;
+    height:3px;
+    background-color:black;
+}
+
+.card1-text{
+    text-align:center;
+}
+
+
+
+
 
 @media screen and (max-width: 940px) {
   .story__note__outer {
