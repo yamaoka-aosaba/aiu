@@ -154,13 +154,13 @@ h6{
 }
 
 
-card2{
+.card2{
   background-color:#fff;
   margin-bottom:20px;
   height:100%;
 }
 
-card2-title{
+.card2-title{
   font-size:18px;
   text-align:center;
   margin:0;
@@ -168,7 +168,7 @@ card2-title{
   cursor:pointer;
 }
 
-card2-title::after{
+.card2-title::after{
   display: block;
   content: "";
   width: 100%;
@@ -176,7 +176,7 @@ card2-title::after{
   background-color: #793535;
 }
 
-card2-content{
+.card2-content{
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-size: 16px;
