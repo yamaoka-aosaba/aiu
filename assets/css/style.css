@@ -554,31 +554,30 @@ h6{
   margin-top: 20px;
 }
 
+
+
 .clear-message {
-  background-color: #d9e021;
+  background-color: #ffffff;
   padding: 30px 30px 60px;
   position: relative;
 }
 
 .clear-message__title {
-  position: relative;
   display: block;
   text-align: center;
-  color: #006837;
+  color: #000000;
   font-size: 30px;
   padding-bottom: 10px;
   margin-bottom: 35px;
 }
 
 .clear-message__title::after {
+  margin:0 auto;
   content: '';
-  position: absolute;
   display: block;
   width: 183px;
   height: 2px;
-  background-color: #fff;
-  bottom: 0;
-  left: calc(50% - (183px/2));
+  background-color: #793535;
 }
 
 .clear-message__content {
@@ -592,6 +591,8 @@ h6{
   width: 288px;
   margin: 0;
 }
+
+
 
 /********************
 * Utility
