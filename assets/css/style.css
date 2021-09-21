@@ -525,17 +525,6 @@ h6{
 
 
 
-story1{
-  text-align:center;
-}
-
-text-center1{
-  text-align:left;
-  display:inline-block;
-}
-
-
-
 @media screen and (max-width: 940px) {
   .story__note__outer {
     width: 100%;
