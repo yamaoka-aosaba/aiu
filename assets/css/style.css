@@ -309,7 +309,7 @@ h6{
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
+  background-color: #ffffff;
 }
 
 .bg-color--gray {
@@ -368,24 +368,19 @@ h6{
 }
 
 .section-title--border {
-  position: relative;
   font-size: 30px;
   text-align: center;
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  color: #000000;
 }
 
 .section-title--border::after {
-  position: absolute;
-  bottom: 0;
-  left: calc(50% - 95px);
   display: block;
   content: '';
-  background-color: #fff;
-  height: 2.6px;
-  width: 190px;
+  background-color: #fcee21;
+  height: 3px;
 }
 
 /******************
@@ -586,9 +581,8 @@ h6{
   margin:0 auto;
   content: '';
   display: block;
-  width: 183px;
-  height: 2px;
-  background-color: #793535;
+  height: 3px;
+  background-color: #fcee21;
 }
 
 .clear-message__content {
