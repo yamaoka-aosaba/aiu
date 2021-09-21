@@ -221,6 +221,16 @@ h6{
   left: 30px;
 }
 
+
+
+.question{
+  background-color: #ffffff;
+  padding: 10px 0;
+  margin: 20px;
+}
+
+
+
 .hint-page .card {
   height: auto;
 }
