@@ -209,6 +209,7 @@ h6{
   margin: 0;
   padding: 20px 30px;
   cursor: pointer;
+  position:relative;
 }
 
 .card__content {
@@ -219,7 +220,7 @@ h6{
   margin: 0;
 }
 
-.card__title:: {
+.card__title::after{
   display: block;
   content: '';
   height: 3px;
