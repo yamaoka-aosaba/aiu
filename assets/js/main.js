@@ -112,7 +112,7 @@ app.component('answer-input', {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
       okMessage: '正解！',
-      ngMessage: 'そのキーワードは違うようだぞ！？',
+      ngMessage: '何も起こらない',
       message: '',
       inputAnswer: '',
     }
@@ -120,7 +120,7 @@ app.component('answer-input', {
   template: `
     <div class="answer__container">
       <div class="answer">
-        <input type="text" v-model="inputAnswer" placeholder="ここに答えを入力しよう">
+        <input type="text" v-model="inputAnswer" placeholder="解答を入力">
       </div>
       <p v-if="message === ngMessage" class="err-message">{{ message }}</p>
       <button v-on:click="judgement(inputAnswer)">送信</button>
