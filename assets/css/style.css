@@ -259,7 +259,7 @@ h6{
           transform: rotate(90deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  fill: #009245;
+  fill: #af0201;
   width: 12px;
   height: 24px;
 }
@@ -309,6 +309,10 @@ h6{
 
 .bg-color--gray {
   background-color: #bfbfbf;
+}
+
+bg-color--1{
+  background-color:#fff2e7
 }
 
 /*********************
