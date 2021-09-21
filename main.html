@@ -116,6 +116,7 @@ Youtube貼り付けここまで -->
         v-if="next['stage1']"はnext['stage1']がtrueになったら表示します。
       ----------------------------------------------------------------------->
       <div v-if="next['stage1']" id="sectionStage2" class="stage">
+        <div class="question">
         <section>
           <div class="section">
             <div class="container">
@@ -188,6 +189,7 @@ Youtube貼り付けここまで -->
             </div>
           </div>
         </section>
+        </div>
 
         <!-- STAGE2クリア画面　ここから -->
         <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray">
@@ -206,6 +208,7 @@ Youtube貼り付けここまで -->
 
       <!-- STAGE3　ここから -->
       <div v-if="next['stage2']" id="sectionStage3" class="stage">
+        <div class="question">
 
         <!-- STAGE3-1問題セクション　ここから -->
         <section class="section">
@@ -276,6 +279,7 @@ STAGE3-2追加ここまで -->
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
           </div>
         </section>
+       </div>
 
 STAGE3-3追加　ここまで -->
 
