@@ -18,7 +18,7 @@ html {
 body {
     font-family:"Times New Roman","ヒラギノ明朝 ProN",serif;
     font-weight:bold;
-    background-color:#fff2e7;
+    background-color:#fff;
     color:#000000;
     margin:0%;
     line-height:30px;
@@ -230,7 +230,7 @@ h6{
 
 
 .question{
-  background-color: #ffffff;
+  border:solid 1px #000;
   padding: 10px 0;
   margin: 20px;
 }
@@ -578,14 +578,6 @@ bg-color--1{
   font-size: 30px;
   padding-bottom: 10px;
   margin-bottom: 35px;
-}
-
-.clear-message__title::after {
-  margin:0 auto;
-  content: '';
-  display: block;
-  height: 3px;
-  background-color: #fcee21;
 }
 
 .clear-message__content {
