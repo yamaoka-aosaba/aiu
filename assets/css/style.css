@@ -534,6 +534,31 @@ bg-color--1{
 }
 
 
+
+.final-clear{
+  padding: 35px 30px;
+  background-color: #dcbcbc;
+}
+
+.final-clear-title{
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.06667;
+    margin: 0;
+    padding-bottom: 15px;
+    color: #000000;
+}
+
+.final-clear-title::after{
+  display:block;
+  content:"";
+  height:3px;
+  background-color:#fff;
+}
+
+
+
+
 @media screen and (max-width: 940px) {
   .story__note__outer {
     width: 100%;
